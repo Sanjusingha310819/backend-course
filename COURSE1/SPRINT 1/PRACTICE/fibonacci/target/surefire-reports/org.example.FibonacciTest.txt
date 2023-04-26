@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.example.FibonacciTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec <<< FAILURE!
+testFibonacciFail(org.example.FibonacciTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...55 > but was:<...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at org.example.FibonacciTest.testFibonacciFail(FibonacciTest.java:66)
+

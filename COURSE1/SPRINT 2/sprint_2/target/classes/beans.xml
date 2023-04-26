@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="product1" class="org.stackroute.domain.Product">
+        <property name="productId" value="1" />
+        <property name="productName" value="Carpet" />
+    </bean>
+
+    <bean id="product2" class="org.stackroute.domain.Product">
+        <property name="productId" value="2" />
+        <property name="productName" value="Sofa" />
+    </bean>
+
+    <bean id="cab1" class="org.stackroute.domain.Cab">
+        <property name="cabId" value="1" />
+        <property name="vehicleRegistrationPlateNo" value="MH016789" />
+        <property name="vehicleType" value="CNG" />
+    </bean>
+
+</beans>
